@@ -1,0 +1,10 @@
+{
+  "name": "Nhật Bản",
+  "banner": "🇯🇵",
+  "intro": "Nhật Bản là điểm đến du học hàng đầu châu Á với nền giáo dục tiên tiến, văn hóa phong phú và cơ hội việc làm rộng mở.",
+  "benefits": ["Chất lượng đào tạo hàng đầu", "Học bổng hấp dẫn", "Môi trường an toàn"],
+  "requirements": ["TOEFL iBT 80+ / JLPT N2", "Bằng tốt nghiệp THPT", "Chứng minh tài chính"],
+  "tuition": ["Học phí: 800.000 - 1.200.000 JPY/năm", "Sinh hoạt phí: 100.000 - 150.000 JPY/tháng"],
+  "schools": ["ĐH Tokyo", "ĐH Kyoto", "ĐH Osaka"],
+  "faq": ["Hỏi: Chi phí du học Nhật? Đáp: Khoảng 200-250 triệu VND/năm."]
+}
