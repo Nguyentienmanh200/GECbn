@@ -1,0 +1,10 @@
+{
+  "courses": [
+    { "icon": "🇬🇧", "name": "Tiếng Anh", "desc": "Lộ trình từ cơ bản đến nâng cao, luyện thi IELTS, TOEIC, giao tiếp quốc tế." },
+    { "icon": "🇯🇵", "name": "Tiếng Nhật", "desc": "Chương trình từ N5 đến N1, luyện thi JLPT, định hướng du học và làm việc." },
+    { "icon": "🇰🇷", "name": "Tiếng Hàn", "desc": "Đào tạo từ sơ cấp đến cao cấp, luyện thi TOPIK, giao tiếp thành thạo." },
+    { "icon": "🇨🇳", "name": "Tiếng Trung", "desc": "Luyện thi HSK, giao tiếp thương mại, văn hóa Trung Hoa." },
+    { "icon": "🇩🇪", "name": "Tiếng Đức", "desc": "Chuẩn bị du học nghề Đức, luyện thi Goethe, định cư châu Âu." },
+    { "icon": "🌐", "name": "Luyện thi quốc tế", "desc": "SAT, ACT, GRE, GMAT – Đồng hành cùng bạn chinh phục các kỳ thi quốc tế." }
+  ]
+}
