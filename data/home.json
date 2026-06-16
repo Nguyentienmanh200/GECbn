@@ -1,0 +1,21 @@
+{
+  "hero_title": "G.E.C — Trọn niềm tin, Vững tương lai",
+  "hero_desc": "Trung tâm Ngoại ngữ & Du học G.E.C (Vkjth Educational) – Đồng hành cùng bạn chinh phục tri thức toàn cầu.",
+  "features": [
+    {
+      "icon": "🌍",
+      "title": "Du học toàn cầu",
+      "desc": "8 quốc gia hàng đầu với lộ trình tối ưu, chi phí hợp lý, hỗ trợ tận tâm."
+    },
+    {
+      "icon": "📚",
+      "title": "Đào tạo ngoại ngữ",
+      "desc": "Tiếng Anh, Nhật, Hàn, Trung, Đức – lộ trình cá nhân hóa, cam kết đầu ra."
+    },
+    {
+      "icon": "🤖",
+      "title": "Tư vấn AI 24/7",
+      "desc": "Trợ lý ảo thông minh sẵn sàng giải đáp mọi thắc mắc của bạn ngay lập tức."
+    }
+  ]
+}
