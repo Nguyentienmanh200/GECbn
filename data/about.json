@@ -1,0 +1,10 @@
+{
+  "mission": "Kiến tạo cơ hội học tập quốc tế cho thế hệ trẻ Việt Nam, kết nối tri thức toàn cầu.",
+  "vision": "Trở thành trung tâm giáo dục và du học uy tín hàng đầu tại Bắc Ninh và khu vực phía Bắc.",
+  "core_values": ["Trung thực", "Tận tâm", "Sáng tạo", "Bền vững"],
+  "branch": {
+    "name": "Bắc Ninh",
+    "address": "Số 1, đường Lý Thái Tổ, phường Vũ Ninh, thành phố Bắc Ninh",
+    "hotline": "1900 636 636"
+  }
+}
