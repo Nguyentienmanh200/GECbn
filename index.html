@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G.E.C - Vkjth Educational | Trọn niềm tin - Vững tương lai</title>
+    <meta name="description" content="Trung tâm Ngoại ngữ & Du học G.E.C - Vkjth Educational. Đào tạo ngoại ngữ và tư vấn du học các nước Nhật Bản, Hàn Quốc, Đài Loan, Trung Quốc, Mỹ, Canada, Úc, Đức." />
+    <meta name="keywords" content="du học, ngoại ngữ, G.E.C, Vkjth, Nhật Bản, Hàn Quốc, Đài Loan, Trung Quốc, Mỹ, Canada, Úc, Đức" />
+    <meta property="og:title" content="G.E.C - Vkjth Educational" />
+    <meta property="og:description" content="Trung tâm Ngoại ngữ & Du học G.E.C - Trọn niềm tin - Vững tương lai" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- ===== LOADER ===== -->
+    <div id="loader">
+        <div class="loader-water"></div>
+        <div class="loader-logo">G.E.C</div>
+        <div class="loader-ring"></div>
+        <p style="margin-top:16px;color:#888;font-weight:500;letter-spacing:1px;">Vkjth Educational</p>
+    </div>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container">
+            <div class="logo" onclick="navigate('/')">
+                G.E.C <span>Vkjth</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+            <nav id="mainNav">
+                <a href="#" data-route="/" class="active">Trang chủ</a>
+                <a href="#" data-route="/gioi-thieu">Giới thiệu</a>
+                <a href="#" data-route="/khoa-hoc">Khóa học</a>
+                <a href="#" data-route="/tuyen-sinh">Tuyển sinh</a>
+                <a href="#" data-route="/tin-tuc">Tin tức</a>
+                <a href="#" data-route="/du-hoc">Du học</a>
+                <a href="#" data-route="/lien-he">Liên hệ</a>
+                <a href="#" data-route="/admin" style="color:var(--red);font-weight:600;">Admin</a>
+            </nav>
+            <div class="header-actions">
+                <button class="btn-ripple" onclick="navigate('/tuyen-sinh')">📝 Đăng ký</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="app">
+        <!-- Các trang sẽ được render bởi JS -->
+    </main>
+
+    <!-- ===== AI CHAT ===== -->
+    <button class="ai-toggle" id="aiToggle" onclick="toggleChat()">💬</button>
+    <div class="ai-chat" id="aiChat">
+        <div class="ai-chat-header">
+            <span>🤖 G.E.C AI</span>
+            <button onclick="toggleChat()">✕</button>
+        </div>
+        <div class="ai-chat-messages" id="chatMessages">
+            <div class="msg bot">Xin chào! Tôi là trợ lý AI của G.E.C. Tôi có thể giúp gì cho bạn về du học và ngoại ngữ? 😊</div>
+        </div>
+        <div class="ai-chat-input">
+            <input type="text" id="chatInput" placeholder="Nhập câu hỏi..." onkeydown="if(event.key==='Enter') sendChat()" />
+            <button onclick="sendChat()">Gửi</button>
+        </div>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="js/router.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
