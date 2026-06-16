@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G.E.C Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- ===== ADMIN LOGIN ===== -->
+    <div id="adminLogin" class="admin-login glass">
+        <h2 style="color:var(--brown);">🔐 Đăng nhập Admin</h2>
+        <p style="color:#888;margin-bottom:20px;">Username: admin | Password: 123456</p>
+        <form id="adminLoginForm">
+            <div class="form-group">
+                <label>Tài khoản</label>
+                <input type="text" id="adminUser" value="admin" />
+            </div>
+            <div class="form-group">
+                <label>Mật khẩu</label>
+                <input type="password" id="adminPass" value="123456" />
+            </div>
+            <button type="submit" class="btn-ripple" style="width:100%;justify-content:center;">Đăng nhập</button>
+        </form>
+        <div id="adminLoginError" style="color:var(--red);margin-top:12px;"></div>
+    </div>
+
+    <!-- ===== ADMIN PANEL ===== -->
+    <div id="adminPanel" class="admin-panel admin-dashboard" style="display:none;">
+        <div class="container">
+            <h2 class="page-title">📊 Dashboard</h2>
+            <div class="stats">
+                <div class="stat"><div class="num" id="statVisits">1,284</div><div class="label">Tổng lượt truy cập</div></div>
+                <div class="stat"><div class="num" id="statOnline">12</div><div class="label">Đang online</div></div>
+                <div class="stat"><div class="num">🇯🇵</div><div class="label">Quốc gia xem nhiều</div></div>
+                <div class="stat"><div class="num">/du-hoc</div><div class="label">Trang xem nhiều</div></div>
+            </div>
+            <div class="admin-tabs">
+                <button class="active" data-admin="content">📝 Nội dung</button>
+                <button data-admin="countries">🌍 Quản lý quốc gia</button>
+                <button data-admin="settings">⚙️ Cài đặt</button>
+            </div>
+            <div id="adminContent">
+                <p style="color:#888;">Chọn tab để quản lý nội dung. (Giao diện quản lý WYSIWYG đang được phát triển)</p>
+                <div class="glass" style="padding:20px;margin-top:16px;">
+                    <p><strong>Trang chủ:</strong> Nội dung hero, slogan, giới thiệu ngắn.</p>
+                    <p><strong>Giới thiệu:</strong> Sứ mệnh, tầm nhìn, giá trị cốt lõi.</p>
+                    <p><strong>Khóa học:</strong> Danh sách khóa học, mô tả.</p>
+                    <p><strong>Tin tức:</strong> Bài viết, sự kiện.</p>
+                    <p><strong>Liên hệ:</strong> Thông tin liên hệ, bản đồ.</p>
+                    <button class="btn-ripple" style="margin-top:12px;" onclick="alert('💡 Tính năng chỉnh sửa sẽ sớm ra mắt!')">✏️ Chỉnh sửa nội dung</button>
+                </div>
+            </div>
+            <div id="adminCountries" style="display:none;">
+                <div class="glass" style="padding:20px;margin-top:16px;">
+                    <p><strong>Quản lý chương trình du học</strong> (8 quốc gia)</p>
+                    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;">
+                        <button class="btn-ripple btn-outline" onclick="alert('🇯🇵 Sắp tới: Chỉnh sửa Nhật Bản')">🇯🇵 Nhật</button>
+                        <button class="btn-ripple btn-outline" onclick="alert('🇰🇷 Sắp tới: Chỉnh sửa Hàn Quốc')">🇰🇷 Hàn</button>
+                        <button class="btn-ripple btn-outline" onclick="alert('🇹🇼 Sắp tới: Chỉnh sửa Đài Loan')">🇹🇼 Đài Loan</button>
+                        <button class="btn-ripple btn-outline" onclick="alert('🇨🇳 Sắp tới: Chỉnh sửa Trung Quốc')">🇨🇳 Trung</button>
+                        <button class="btn-ripple btn-outline" onclick="alert('🇺🇸 Sắp tới: Chỉnh sửa Mỹ')">🇺🇸 Mỹ</button>
+                        <button class="btn-ripple btn-outline" onclick="alert('🇨🇦 Sắp tới: Chỉnh sửa Canada')">🇨🇦 Canada</button>
+                        <button class="btn-ripple btn-outline" onclick="alert('🇦🇺 Sắp tới: Chỉnh sửa Úc')">🇦🇺 Úc</button>
+                        <button class="btn-ripple btn-outline" onclick="alert('🇩🇪 Sắp tới: Chỉnh sửa Đức')">🇩🇪 Đức</button>
+                    </div>
+                    <button class="btn-ripple btn-green" style="margin-top:16px;" onclick="alert('➕ Thêm quốc gia mới')">➕ Thêm quốc gia</button>
+                </div>
+            </div>
+            <div id="adminSettings" style="display:none;">
+                <div class="glass" style="padding:20px;margin-top:16px;">
+                    <h4>⚙️ Cấu hình hệ thống</h4>
+                    <div class="form-group">
+                        <label>Telegram BOT_TOKEN</label>
+                        <input type="text" value="123456:ABC-DEF" placeholder="BOT_TOKEN" />
+                    </div>
+                    <div class="form-group">
+                        <label>Telegram CHAT_ID</label>
+                        <input type="text" value="-100123456789" placeholder="CHAT_ID" />
+                    </div>
+                    <div class="form-group">
+                        <label>AI API_KEY</label>
+                        <input type="text" value="sk-xxx" placeholder="API_KEY" />
+                    </div>
+                    <div class="form-group">
+                        <label>AI MODEL</label>
+                        <input type="text" value="gpt-4" placeholder="MODEL" />
+                    </div>
+                    <button class="btn-ripple" onclick="alert('✅ Cài đặt đã được lưu!')">💾 Lưu cấu hình</button>
+                </div>
+            </div>
+            <button class="btn-ripple btn-outline" style="margin-top:24px;" onclick="logoutAdmin()">🚪 Đăng xuất</button>
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
