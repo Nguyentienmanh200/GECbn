@@ -1,0 +1,27 @@
+{
+  "name": "Hàn Quốc",
+  "banner": "🇰🇷",
+  "intro": "Hàn Quốc – Quốc gia của công nghệ và văn hóa K-pop. Hệ thống giáo dục hiện đại, chi phí hợp lý.",
+  "benefits": [
+    "Học bổng chính phủ",
+    "Môi trường năng động",
+    "Cơ hội việc làm cao"
+  ],
+  "requirements": [
+    "TOPIK 3+",
+    "Bằng THPT",
+    "Chứng minh tài chính"
+  ],
+  "tuition": [
+    "Học phí: 4.000.000 - 8.000.000 KRW/học kỳ",
+    "Sinh hoạt phí: 500.000 - 800.000 KRW/tháng"
+  ],
+  "schools": [
+    "ĐH Quốc gia Seoul",
+    "ĐH Korea",
+    "ĐH Yonsei"
+  ],
+  "faq": [
+    "Hỏi: Có cần tiếng Hàn? Đáp: Cần TOPIK 3 trở lên."
+  ]
+}
