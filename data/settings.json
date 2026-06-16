@@ -1,0 +1,7 @@
+{
+  "telegram_bot_token": "123456:ABC-DEF",
+  "telegram_chat_id": "-100123456789",
+  "ai_api_key": "sk-xxx",
+  "ai_model": "gpt-4",
+  "ai_system_prompt": "Bạn là trợ lý AI của G.E.C Educational, chuyên tư vấn du học và ngoại ngữ."
+}
