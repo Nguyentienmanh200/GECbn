@@ -1,0 +1,27 @@
+{
+  "name": "Trung Quốc",
+  "banner": "🇨🇳",
+  "intro": "Trung Quốc – Cường quốc giáo dục với nhiều trường đại học top đầu thế giới.",
+  "benefits": [
+    "Chất lượng đào tạo cao",
+    "Học bổng CSC",
+    "Cơ hội việc làm"
+  ],
+  "requirements": [
+    "HSK 4+",
+    "Bằng THPT",
+    "Chứng minh tài chính"
+  ],
+  "tuition": [
+    "Học phí: 20.000 - 60.000 CNY/năm",
+    "Sinh hoạt phí: 3.000 - 6.000 CNY/tháng"
+  ],
+  "schools": [
+    "ĐH Bắc Kinh",
+    "ĐH Thanh Hoa",
+    "ĐH Phục Đán"
+  ],
+  "faq": [
+    "Hỏi: Học bổng CSC là gì? Đáp: Học bổng chính phủ Trung Quốc."
+  ]
+}
