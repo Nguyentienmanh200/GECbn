@@ -1,0 +1,27 @@
+{
+  "name": "Đài Loan",
+  "banner": "🇹🇼",
+  "intro": "Đài Loan – Hòn đảo xinh đẹp với nền giáo dục chất lượng cao, chi phí du học phải chăng.",
+  "benefits": [
+    "Học bổng đa dạng",
+    "Chi phí thấp",
+    "Văn hóa thân thiện"
+  ],
+  "requirements": [
+    "TOCFL A2+",
+    "Bằng THPT",
+    "Chứng minh tài chính"
+  ],
+  "tuition": [
+    "Học phí: 50.000 - 100.000 TWD/học kỳ",
+    "Sinh hoạt phí: 15.000 - 25.000 TWD/tháng"
+  ],
+  "schools": [
+    "ĐH Quốc gia Đài Loan",
+    "ĐH Thanh Hoa",
+    "ĐH Giao thông"
+  ],
+  "faq": [
+    "Hỏi: Có học bổng không? Đáp: Có học bổng chính phủ và trường."
+  ]
+}
